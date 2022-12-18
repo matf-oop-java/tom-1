@@ -1,7 +1,7 @@
 package rs.math.oop.g13.p06.genericiMinimalniElementNiza;
 
-public class UredjeniParUporediv<S extends Comparable<S>, T extends Comparable<T>> 
-    implements Comparable<UredjeniParUporediv<S, T>>{
+public class UredjeniParUporediv<T extends Comparable<T>,S extends Comparable<S>>
+    implements Comparable<UredjeniParUporediv<T, S>>{
     private T vrednost1;
     private S vrednost2;
 
@@ -24,7 +24,7 @@ public class UredjeniParUporediv<S extends Comparable<S>, T extends Comparable<T
     }
 
     @Override
-    public int compareTo(UredjeniParUporediv<S, T> o) {
+    public int compareTo(UredjeniParUporediv<T, S> o) {
         int uredjenjeS = this.vrednost1.compareTo(o.vrednost1);
         if(uredjenjeS!=0)
             return uredjenjeS;

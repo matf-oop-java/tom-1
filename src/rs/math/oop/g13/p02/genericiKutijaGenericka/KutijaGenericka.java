@@ -15,7 +15,9 @@ public class KutijaGenericka<T> {
 	public T uzmiVrednost() {
 		return this.vrednost;
 	}
-	
+	@Override
+	public String toString(){ return "[" + uzmiVrednost() + "]";}
+
 	public static void main(String[] args) {
 		KutijaGenericka<String> kutija1 = new KutijaGenericka<String>();
 		kutija1.postaviVrednost("Текст");
@@ -23,6 +25,7 @@ public class KutijaGenericka<T> {
 		// тако да је програмер растерећен одговорности да то мора да зна
 		String tekst1 = kutija1.uzmiVrednost();
 		System.out.println(tekst1);
+		System.out.println(kutija1);
 		// компајлер не допушта да у кутију убацимо нешто што није String
 		// па нам тиме помаже у провери семантичке коректности програма
 		//kutija1.postaviVrednost(45);

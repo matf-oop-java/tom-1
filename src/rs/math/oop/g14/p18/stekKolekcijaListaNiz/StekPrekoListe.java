@@ -95,8 +95,6 @@ public class StekPrekoListe<T> extends AbstractCollection<T> implements Stek<T> 
 		sb.append(">>");
 		return sb.toString();
 	}
-	
-
 
 	private class IteratorSteka<E> implements Iterator<E> {
 		private Cvor tekuci;

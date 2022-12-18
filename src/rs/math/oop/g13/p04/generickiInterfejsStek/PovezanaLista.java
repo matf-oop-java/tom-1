@@ -2,7 +2,7 @@ package rs.math.oop.g13.p04.generickiInterfejsStek;
 
 public class PovezanaLista<T> {
 
-	public class Cvor<E> {
+	private class Cvor<E> {
 		private E sadrzaj;
 		private Cvor<E> sledeci;
 
@@ -48,7 +48,7 @@ public class PovezanaLista<T> {
 
 	public PovezanaLista(T[] elementi) {
 		if (elementi == null)
-			return;
+			throw new NullPointerException("Argument elementi ima vrednost null");
 		for (int i = 0; i < elementi.length; i++)
 			dodajNaKraj(elementi[i]);
 		tekuci = pocetak;
@@ -64,9 +64,9 @@ public class PovezanaLista<T> {
 		}
 	}
 
-	public T ukloniSaKraja() {
+	public T ukloniSaKraja() throws Exception {
 		if (kraj == null)
-			return null;
+			throw new Exception("Није могуће уклонити елемент из прaзне листе");
 		if (pocetak == kraj) {
 			Cvor<T> jedini = kraj;
 			pocetak = kraj = null;
@@ -91,9 +91,9 @@ public class PovezanaLista<T> {
 		}
 	}
 
-	public T ukloniSaPocetka() {
+	public T ukloniSaPocetka() throws RuntimeException {
 		if (pocetak == null)
-			return null;
+			throw new RuntimeException("Није могуће уклонити елемент из празне листе");
 		if (pocetak == kraj) {
 			Cvor<T> jedini = kraj;
 			pocetak = kraj = null;
@@ -119,7 +119,7 @@ public class PovezanaLista<T> {
 		return (tekuci == null) ? null : tekuci.uzmiSadrzaj();
 	}
 
-	public int brojCvorova() {
+	public int brojElemenata() {
 		int n = 1;
 		Cvor tek = pocetak;
 		if (tek == null)

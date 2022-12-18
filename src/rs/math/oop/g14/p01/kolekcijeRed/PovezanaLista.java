@@ -2,7 +2,7 @@ package rs.math.oop.g14.p01.kolekcijeRed;
 
 public class PovezanaLista<T> {
 
-	public class Cvor<E> {
+	private class Cvor<E> {
 		private E sadrzaj;
 		private Cvor<E> sledeci;
 
@@ -63,10 +63,9 @@ public class PovezanaLista<T> {
 			kraj = noviKraj;
 		}
 	}
-
-	public T ukloniSaKraja() {
-		if (kraj == null)
-			return null;
+		public T ukloniSaKraja() throws Exception {
+			if (kraj == null)
+				throw new Exception("Није могуће уклонити елемент из прaзне листе");
 		if (pocetak == kraj) {
 			Cvor<T> jedini = kraj;
 			pocetak = kraj = null;
@@ -91,9 +90,9 @@ public class PovezanaLista<T> {
 		}
 	}
 
-	public T ukloniSaPocetka() {
+	public T ukloniSaPocetka() throws RuntimeException {
 		if (pocetak == null)
-			return null;
+			throw new RuntimeException("Није могуће уклонити елемент из празне листе");
 		if (pocetak == kraj) {
 			Cvor<T> jedini = kraj;
 			pocetak = kraj = null;
