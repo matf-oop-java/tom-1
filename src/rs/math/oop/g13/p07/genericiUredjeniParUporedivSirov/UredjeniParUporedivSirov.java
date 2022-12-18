@@ -12,11 +12,11 @@ public class UredjeniParUporedivSirov implements Comparable{
             this.vrednost2 = vrednost2;
         }
         
-        public Comparable getVrednost1() {
+        public Comparable uzmiVrednost1() {
             return vrednost1;
         }
         
-        public Comparable getVrednost2() {
+        public Comparable uzmiVrednost2() {
             return vrednost2;
         }
         

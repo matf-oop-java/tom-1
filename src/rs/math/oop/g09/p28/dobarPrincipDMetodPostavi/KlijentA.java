@@ -15,7 +15,7 @@ public class KlijentA implements Klijent {
 
    @Override
    public void uradiNesto() {
-      String info = servis.getInfo();
+      String info = servis.informacije();
       out.println("KlijentA - " + info);
    }
 }
