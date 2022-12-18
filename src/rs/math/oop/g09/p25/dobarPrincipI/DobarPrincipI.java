@@ -12,12 +12,12 @@ public class DobarPrincipI {
 
       OnLajnKlijent klijent = new OnLajnKlijent("Владо", "Његошева 48",
             "vladaf@math.rs", onLinePorudzbina, onLajnPlacanje);
-      klijent.getPorudzbina().prihvatiPorudzbinu();
-      klijent.getPlacanje().platiPorudzbinu();
+      klijent.uzmiPorudzbina().prihvatiPorudzbinu();
+      klijent.uzmiPlacanje().platiPorudzbinu();
 
       klijent.setPorudzbina(telefonskPorudzbina);
       klijent.setPlacanje(licnoPlacanje);
-      klijent.getPorudzbina().prihvatiPorudzbinu();
-      klijent.getPlacanje().platiPorudzbinu();
+      klijent.uzmiPorudzbina().prihvatiPorudzbinu();
+      klijent.uzmiPlacanje().platiPorudzbinu();
    }
 }

@@ -10,11 +10,11 @@ public class UredjeniParUporediv<S extends Comparable<S>, T extends Comparable<T
         this.vrednost2 = vrednost2;
     }
     
-    public T getVrednost1() {
+    public T uzmiVrednost1() {
         return vrednost1;
     }
     
-    public S getVrednost2() {
+    public S uzmiVrednost2() {
         return vrednost2;
     }
     

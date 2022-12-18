@@ -19,7 +19,7 @@ public class RadSaHesKatalogom {
 		Map<String, Osoba> osobeKatalog = new HashMap<String, Osoba>();
 		// убацујемо у каталог
 		for(Osoba o : osobe)
-			osobeKatalog.put(o.getJMBG(), o);
+			osobeKatalog.put(o.uzmiJMBG(), o);
 		// редослед при испису није исти као при уносу
 		for(String jmbg: osobeKatalog.keySet())
 			System.out.println(String.format("%s\t->\t%s", 

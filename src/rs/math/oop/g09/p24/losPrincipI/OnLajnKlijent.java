@@ -13,7 +13,7 @@ public class OnLajnKlijent {
       this.hraniSe = hraniSe;
    }
 
-   public Restoran getHraniSe() {
+   public Restoran uzmiHraniSe() {
       return hraniSe;
    }
 

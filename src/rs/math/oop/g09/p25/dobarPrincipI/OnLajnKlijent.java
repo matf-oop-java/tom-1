@@ -17,7 +17,7 @@ public class OnLajnKlijent {
       this.placanje = placanje;
    }
 
-   public Porudzbina getPorudzbina() {
+   public Porudzbina uzmiPorudzbina() {
       return porudzbina;
    }
 
@@ -25,7 +25,7 @@ public class OnLajnKlijent {
       this.porudzbina = porudzbina;
    }
 
-   public Placanje getPlacanje() {
+   public Placanje uzmiPlacanje() {
       return placanje;
    }
 

@@ -11,11 +11,11 @@ public class Istrazivac extends Naucnik implements Eksperimentator{
 
    @Override
    public void definisiHipotezu() {
-      System.out.println("Истраживач '" + getIme() +"' је дао хипотезу у научној области " + probojUOblasti);
+      System.out.println("Истраживач '" + uzmiIme() +"' је дао хипотезу у научној области " + probojUOblasti);
    }
 
    @Override
    public void realizujeEksperimente() {
-      System.out.println("Истраживач '" + getIme() +"' је реализовао експерименте у научној области " + probojUOblasti);
+      System.out.println("Истраживач '" + uzmiIme() +"' је реализовао експерименте у научној области " + probojUOblasti);
    }
 }
