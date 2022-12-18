@@ -24,15 +24,11 @@ public class SamorastuciNiz<T> {
 			brojElemenata = indeks + 1;
 	}
 
-	public T uzmiSa(int indeks) {
-		if (indeks < 0) {
-			System.err.println("Грешка: индекс је негативан!");
-			return null;
-		}
-		if (indeks >= elementi.length) {
-			System.err.println("Грешка: индекс је већи од величине низа!");
-			return null;
-		}
+	public T uzmiSa(int indeks) throws IndexOutOfBoundsException {
+		if (indeks < 0)
+			throw new IndexOutOfBoundsException(indeks);
+		if (indeks >= elementi.length)
+			throw new IndexOutOfBoundsException(indeks);
 		return elementi[indeks];
 	}
 

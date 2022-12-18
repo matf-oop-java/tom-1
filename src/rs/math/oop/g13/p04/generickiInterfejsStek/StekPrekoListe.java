@@ -10,17 +10,18 @@ public class StekPrekoListe<T> implements Stek<T> {
 	}
 
 	@Override
-	public T ukloni() {
-		T elem = elementi.ukloniSaPocetka();
-		if (elem == null) {
-			System.err.println("Грешка при уклањању: стек је празан!");
-			return null;
+	public T ukloni() throws RuntimeException {
+		try {
+			T elem = elementi.ukloniSaPocetka();
+			return elem;
 		}
-		return elem;
+		catch(RuntimeException exp){
+			throw new RuntimeException("Није могуће уклањање из празног стека", exp);
+		}
 	}
 
 	@Override
 	public int brojElemenata() {
-		return elementi.brojCvorova();
+		return elementi.brojElemenata();
 	}
 }

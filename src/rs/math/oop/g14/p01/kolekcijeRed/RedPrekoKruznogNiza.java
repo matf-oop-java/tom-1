@@ -52,12 +52,8 @@ public class RedPrekoKruznogNiza<T> implements Red<T> {
 
 	@Override
 	public T ukloni() {
-		if (brojElemenata == 0) {
-			// овде ћемо уместо изузетка вратити null,
-			// али има смисла и да се избаци изузетак
-			System.out.println("Ред је празан па нема смисла уклањање.");
-			return null;
-		}
+		if (brojElemenata == 0)
+			throw new RuntimeException("Није могуће уклонити елемент из празне листе");
 		T element = redNiz[pocetakIndeks];
 		redNiz[pocetakIndeks] = null;
 		// померамо почетак удесно,

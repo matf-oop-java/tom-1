@@ -10,7 +10,7 @@ public class KutijaGenerickaObojena<T> extends KutijaGenericka<T>{
         this.boja=boja;
     }
     
-    public Color getBoja() {
+    public Color uzmiBoja() {
         return boja;
     }
 

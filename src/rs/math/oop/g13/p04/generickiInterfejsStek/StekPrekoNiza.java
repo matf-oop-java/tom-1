@@ -18,10 +18,8 @@ public class StekPrekoNiza<T> implements Stek<T> {
 
 	@Override
 	public T ukloni() {
-		if (vrhSteka == -1) {
-			System.err.println("Грешка при уклањању: стек је празан!");
-			return null;
-		}
+		if (vrhSteka == -1)
+			throw new RuntimeException ("Грешка при уклањању: стек је празан!");
 		return elementi.uzmiSa(vrhSteka--);
 	}
 
