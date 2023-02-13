@@ -7,7 +7,7 @@ class KreiranjeObjekata{
 	       Zaposleni z2 = new Zaposleni();
 
 	       String s1 = new String();
-	       String s2 = new String("Браћа Бамбалић");
+	       String s2 = new String("Објектно оријентисано програмирање");
 	       String s3 = s2;
 	    }
 	}

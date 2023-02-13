@@ -9,14 +9,14 @@ public class LosPrincipI {
 
       OnLajnKlijent klijent = new OnLajnKlijent("Петар Петровић", "Барска 48",
             "petar@math.rs", onLineObrada);
-      klijent.getHraniSe().prihvatiOnLajnPorudzbinu();
-      klijent.getHraniSe().platiLicno();
-      klijent.getHraniSe().platiOnLajn();
+      klijent.uzmiHraniSe().prihvatiOnLajnPorudzbinu();
+      klijent.uzmiHraniSe().platiLicno();
+      klijent.uzmiHraniSe().platiOnLajn();
 
-      klijent.setHraniSe(telefonskObrada);
-      klijent.getHraniSe().prihvatiOnLajnPorudzbinu();
-      klijent.getHraniSe().prihvatiTelefonskuPorudzbinu();
-      klijent.getHraniSe().platiOnLajn();
-      klijent.getHraniSe().platiLicno();
+      klijent.postaviHraniSe(telefonskObrada);
+      klijent.uzmiHraniSe().prihvatiOnLajnPorudzbinu();
+      klijent.uzmiHraniSe().prihvatiTelefonskuPorudzbinu();
+      klijent.uzmiHraniSe().platiOnLajn();
+      klijent.uzmiHraniSe().platiLicno();
    }
 }

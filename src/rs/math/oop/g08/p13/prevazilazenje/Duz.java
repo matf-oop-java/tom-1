@@ -57,7 +57,7 @@ public class Duz {
 		d3.a = t1;
 		d3.b = t3;
 		System.out.println(t1.equals(d1)); // false
-		System.out.println(d1.equals(d2)); // true (само редослед другачији)
+		System.out.println(d1.equals(d2)); // true (редослед другачији)
 		System.out.println(d1.equals(d3)); // false
 		System.out.println(t1 +" "+ t1.hashCode());
 		System.out.println(t2 +" "+ t2.hashCode());

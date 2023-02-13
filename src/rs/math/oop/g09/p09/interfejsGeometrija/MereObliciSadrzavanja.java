@@ -50,7 +50,7 @@ public class MereObliciSadrzavanja {
       System.out.println("Укупна површина: " + ukupnaPovrsina);
 
       Scanner sc = new Scanner(System.in);
-      System.out.print("Unesite koordinate tacke X: ");
+      System.out.print("Унесите координате тачке X: ");
       Tacka x = new Tacka("X", sc.nextDouble(), sc.nextDouble());
       sc.close();
 

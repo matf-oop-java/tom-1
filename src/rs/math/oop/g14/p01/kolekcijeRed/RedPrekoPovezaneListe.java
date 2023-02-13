@@ -36,17 +36,17 @@ public class RedPrekoPovezaneListe<T> implements Red<T>{
 		red.dodaj(34);
 		red.dodaj(23);
 		red.dodaj(11);
-		System.out.println("Број елемената: " + red.brojElemenata());
+		System.out.println("Број ел.: " + red.brojElemenata());
 		red.ukloni();
-		System.out.println("Број елемената: " + red.brojElemenata());
+		System.out.println("Број ел.: " + red.brojElemenata());
 		red.dodaj(112);
-		System.out.println("Број елемената: " + red.brojElemenata());
+		System.out.println("Број ел.: " + red.brojElemenata());
 		red.dodaj(-134);
-		System.out.println("Број елемената: " + red.brojElemenata());
+		System.out.println("Број ел.: " + red.brojElemenata());
 		red.dodaj(111);
-		System.out.println("Број елемената: " + red.brojElemenata());
+		System.out.println("Број ел.: " + red.brojElemenata());
 		red.dodaj(345);
-		System.out.println("Број елемената: " + red.brojElemenata());
+		System.out.println("Број ел.: " + red.brojElemenata());
 		red.ukloni();
 		red.ukloni();
 		red.ukloni();
@@ -54,6 +54,6 @@ public class RedPrekoPovezaneListe<T> implements Red<T>{
 		red.ukloni();
 		red.ukloni();
 		red.ukloni();
-		System.out.println("Број елемената: " + red.brojElemenata());
+		System.out.println("Број ел.: " + red.brojElemenata());
 	}
 }

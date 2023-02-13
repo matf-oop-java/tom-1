@@ -1,19 +1,19 @@
 package rs.math.oop.g14.p06.hesKod;
 
-public class UredjeniPar<T, S>{
-    private T vrednost1;
-    private S vrednost2;
+public class UredjeniPar<S, T>{
+    private S vrednost1;
+    private T vrednost2;
 
-    public UredjeniPar(T vrednost1, S vrednost2) {
+    public UredjeniPar(S vrednost1, T vrednost2) {
         this.vrednost1 = vrednost1;
         this.vrednost2 = vrednost2;
     }
     
-    public T getVrednost1() {
+    public S uzmiVrednost1() {
         return vrednost1;
     }
     
-    public S getVrednost2() {
+    public T uzmiVrednost2() {
         return vrednost2;
     }
     

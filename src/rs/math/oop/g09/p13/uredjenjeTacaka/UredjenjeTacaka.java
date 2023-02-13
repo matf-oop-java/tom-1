@@ -16,8 +16,9 @@ public class UredjenjeTacaka {
       Tacka c = new Tacka( "C", 10.45, 22);
       Tacka d = new Tacka( "D", 22.3, 17.5);
       Tacka e = new Tacka("E", 25, 25.5);
+      Tacka f = new Tacka("F", 11.5, 10);
 
-      Tacka[] sve = {a, b, c, d, e};
+      Tacka[] sve = {a, b, c, d, e, f};
       System.out.println("Пре сортирања");
       prikaziTacke(sve);
 

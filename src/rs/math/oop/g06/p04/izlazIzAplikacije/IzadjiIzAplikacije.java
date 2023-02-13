@@ -4,7 +4,7 @@ public class IzadjiIzAplikacije {
 
 	static void karakteristikeMonitora(int sirina, int visina) {
 		if (sirina <= 0 || visina <= 0) {
-			System.err.println("Ширина и висина морају бити позитивни бројеви.");
+			System.err.println("Ширина или висина нису позитивни.");
 			// излазимо из целог програма, а не само методе као код return
 			System.exit(1);
 		}

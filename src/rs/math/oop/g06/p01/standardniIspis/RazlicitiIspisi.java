@@ -18,9 +18,9 @@ public class RazlicitiIspisi {
         String s = "Неки текст";
         char c = 'c';
         // за испис знака % потребно је ставити дупли %%
-        System.out.printf("Стринг се умеће помоћу формата %%s овако %s", s);
+        System.out.printf("Стринг се умеће форматом %%s %s", s);
         // System.lineSeparator() враћа секвенцу за крај реда прилагођену ОС-у
-        System.out.printf(" док се карактер умеће помоћу формата %%%c%s", c,
+        System.out.printf(" док се карактер умеће форматом %%%c%s", c,
                 System.lineSeparator());
         // могу се комбиновати различита писма
         // уместо %s и прослеђивања System.lineSeparator() може се ставити формат %n

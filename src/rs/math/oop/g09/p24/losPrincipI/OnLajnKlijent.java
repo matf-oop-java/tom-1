@@ -13,11 +13,11 @@ public class OnLajnKlijent {
       this.hraniSe = hraniSe;
    }
 
-   public Restoran getHraniSe() {
+   public Restoran uzmiHraniSe() {
       return hraniSe;
    }
 
-   public void setHraniSe(Restoran hraniSe) {
+   public void postaviHraniSe(Restoran hraniSe) {
       this.hraniSe = hraniSe;
    }
 

@@ -13,6 +13,7 @@ public class CitajOkreni {
 			if (rec.equals("КРАЈ"))
 				break;
 			stek.dodaj(rec);
+			int x = -0XABC;
 		}
 	}
 
@@ -39,7 +40,7 @@ public class CitajOkreni {
 			break;
 		}
 		default: {
-			System.err.println("Валидни уноси су н и л!");
+			System.err.println("Дозвољени уноси су н и л!");
 			System.exit(-1);
 		}
 		}

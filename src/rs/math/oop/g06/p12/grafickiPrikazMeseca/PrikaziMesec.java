@@ -9,7 +9,7 @@ public class PrikaziMesec {
         System.out.println("Унесите редни број месеца");
         int mesec = skener.nextInt();
         if (mesec < 1 || mesec > 12) {
-            System.err.println("Редни број месеца је између 1 и 12.");
+            System.err.println("Редни број месеца је од 1 до 12.");
             System.exit(1);
         }
         // заглавље

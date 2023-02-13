@@ -14,8 +14,7 @@ public class FrekvencijeBrojevaMonolitno {
 			brojPojava[(x - 1)]++;
 		// нумерички приказ
 		for (int i = 0; i < brojPojava.length; i++)
-			System.out.printf("%d:%d %s", (i + 1), brojPojava[i], 
-					((i + 1) % 8 == 0) ? "\n" : "\t");
+			System.out.printf("%d:%d\t", (i + 1), brojPojava[i]);
 		System.out.printf("\n\n");
 		// графички приказ
 		for (int i = 0; i < brojPojava.length; i++) {

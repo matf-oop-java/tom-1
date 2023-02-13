@@ -6,7 +6,7 @@ public class KlijentA {
    ServisB servis = new ServisB();
 
    public void uradiNesto() {
-      String info = servis.getInfo();
+      String info = servis.uzmiInfo();
       out.println("KlijentA - " + info);
    }
 }

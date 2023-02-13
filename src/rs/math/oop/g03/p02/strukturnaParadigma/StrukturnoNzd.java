@@ -3,18 +3,12 @@ package rs.math.oop.g03.p02.strukturnaParadigma;
 public class StrukturnoNzd {
     // одређивање НЗД за два броја
     public static int nzd2(int prvi, int drugi) {
-        while (true)
-            if (prvi > drugi) {
-                // први је већи
-                if (prvi % drugi == 0)
-                    return drugi;
-                prvi %= drugi;
-            } else {
-                // први је мањи или једнак
-                if (drugi % prvi == 0)
-                    return prvi;
-                drugi %= prvi;
-            }
+        while (drugi > 0) {
+        	int ostatak = prvi % drugi;
+        	prvi = drugi;
+        	drugi = ostatak;
+        }
+        return prvi;
     }
     // одређивање НЗД за три броја
     public static int nzd3(int prvi, int drugi, int treci) {

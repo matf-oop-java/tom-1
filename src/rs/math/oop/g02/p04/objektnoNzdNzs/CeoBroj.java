@@ -17,23 +17,19 @@ class CeoBroj {
     CeoBroj NZD(CeoBroj drugi) {
         int prvaVrednost = vrednost;
         int drugaVrednost = drugi.vrednost;
-        while (true)
-            if (prvaVrednost > drugaVrednost) {
-                // први је већи
-                if (prvaVrednost % drugaVrednost == 0)
-                    return new CeoBroj(drugaVrednost);
-                prvaVrednost %= drugaVrednost;
-            } else {
-                // први је мањи или једнак
-                if (drugaVrednost % prvaVrednost == 0)
-                    return new CeoBroj(prvaVrednost);
-                drugaVrednost %= prvaVrednost;
-            }
+        while (drugaVrednost > 0) {
+        	// ако је први већи, доћи ће до напретка
+        	// у супротном ће бројеви разменити места па ће у наредној итерацији доћи до напретка
+        	int ostatak = prvaVrednost % drugaVrednost;
+        	prvaVrednost = drugaVrednost;
+        	drugaVrednost = ostatak;
+        }
+        return new CeoBroj(prvaVrednost);
     }
     // одређивање НЗС датог броја и другог целог броја
     CeoBroj NZS(CeoBroj drugi) {
         CeoBroj nzd = this.NZD(drugi);
-        int nzs = (vrednost * drugi.vrednost) / nzd.vrednost;
+        int nzs = vrednost / nzd.vrednost * drugi.vrednost;
         return new CeoBroj(nzs);
     }
 }

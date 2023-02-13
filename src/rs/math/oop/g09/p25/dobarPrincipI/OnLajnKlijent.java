@@ -17,19 +17,19 @@ public class OnLajnKlijent {
       this.placanje = placanje;
    }
 
-   public Porudzbina getPorudzbina() {
+   public Porudzbina uzmiPorudzbina() {
       return porudzbina;
    }
 
-   public void setPorudzbina(Porudzbina porudzbina) {
+   public void postaviPorudzbina(Porudzbina porudzbina) {
       this.porudzbina = porudzbina;
    }
 
-   public Placanje getPlacanje() {
+   public Placanje uzmiPlacanje() {
       return placanje;
    }
 
-   public void setPlacanje(Placanje placanje) {
+   public void postaviPlacanje(Placanje placanje) {
       this.placanje = placanje;
    }
 

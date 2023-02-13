@@ -46,9 +46,9 @@ public class Pravougaonik {
 		Tacka t = new Tacka();
 		t.x = 10;
 		t.y = 30;
-		p1.podesi(t, 40, 10);
-		p1.prikazi();
+		p2.podesi(t, 40, 10);
+		p2.prikazi();
 		Pravougaonik p3 = new Pravougaonik();
-		p1.podesi(10, 100, 10, 20);
+		p3.podesi(10, 100, 10, 20);
 	}
 }

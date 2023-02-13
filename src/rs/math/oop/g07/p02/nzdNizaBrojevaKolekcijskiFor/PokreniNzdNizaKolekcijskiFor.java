@@ -8,13 +8,13 @@ public class PokreniNzdNizaKolekcijskiFor {
 		int[] niz = { 24, 48, 96, 192, 36, 72, 144 };
 		// приказ низа
 		System.out.print("Низ: ");
-		for (int elemenat : niz)
-			System.out.print(elemenat + " ");
+		for (int element : niz)
+			System.out.print(element + " ");
 		System.out.println();
 		// одређивање НЗД-а
 		int nzd = niz[0];
-		for (int elemenat : niz)
-			nzd = StrukturnoNzd.nzd2(nzd, elemenat);
+		for (int element : niz)
+			nzd = StrukturnoNzd.nzd2(nzd, element);
 		// приказ резултата
 		System.out.print("НЗД низа: " + nzd);
 	}
