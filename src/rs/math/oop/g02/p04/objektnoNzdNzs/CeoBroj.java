@@ -8,6 +8,7 @@ class CeoBroj {
     CeoBroj(int vrednostBroja) {
         vrednost = vrednostBroja;
     }
+
     // метод за приказ целог броја
     void prikazi() {
         System.out.print(vrednost);
@@ -17,12 +18,11 @@ class CeoBroj {
     CeoBroj NZD(CeoBroj drugi) {
         int prvaVrednost = vrednost;
         int drugaVrednost = drugi.vrednost;
-        while (drugaVrednost > 0) {
-        	// ако је први већи, доћи ће до напретка
-        	// у супротном ће бројеви разменити места па ће у наредној итерацији доћи до напретка
-        	int ostatak = prvaVrednost % drugaVrednost;
-        	prvaVrednost = drugaVrednost;
-        	drugaVrednost = ostatak;
+        while (prvaVrednost != drugaVrednost) {
+            if(prvaVrednost > drugaVrednost)
+                prvaVrednost -= drugaVrednost;
+            else
+                drugaVrednost -= prvaVrednost;
         }
         return new CeoBroj(prvaVrednost);
     }

@@ -4,7 +4,8 @@ class FunkcionalnoNzd {
 	// одређивање НЗД за два броја
 	static java.util.function.BiFunction<Integer, Integer, Integer> nzd2;
 	static {
-		nzd2 = (prvi, drugi) -> (drugi == 0) ? prvi : nzd2.apply(drugi, prvi % drugi);
+		nzd2 = (prvi, drugi) -> (drugi == 0) ?
+				prvi : nzd2.apply(drugi, prvi % drugi);
 	}
 
 	// улазна тачка програма

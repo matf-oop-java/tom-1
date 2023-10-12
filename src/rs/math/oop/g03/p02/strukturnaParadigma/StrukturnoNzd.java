@@ -14,6 +14,7 @@ public class StrukturnoNzd {
     public static int nzd3(int prvi, int drugi, int treci) {
         return nzd2(nzd2(prvi, drugi), treci);
     }
+
     // улазна тачка програма
     public static void main(String[] args) {
         // бројеви чији се НЗД тражи
