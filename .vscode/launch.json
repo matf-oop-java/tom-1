@@ -1,0 +1,1281 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "StudentPokretanje",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g02.p01.klaseKoriscenje.StudentPokretanje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "StudentPokretanje(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g02.p01.klaseObjekti.StudentPokretanje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "StudentPoslediplomacPokretanje",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g02.p02.nasledjivanje.StudentPoslediplomacPokretanje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "StudentPoslediplomacPokretanje(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g02.p02a.kasnoVezivanje.StudentPoslediplomacPokretanje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "CrtezPokretanje",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g02.p03.ucaurivanje.CrtezPokretanje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ObjektnoNzdNzsPokretanje",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g02.p04.objektnoNzdNzs.ObjektnoNzdNzsPokretanje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ImperativnoNzd",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g03.p01.imperativnaParadigma.ImperativnoNzd",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "StrukturnoNzd",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g03.p02.strukturnaParadigma.StrukturnoNzd",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ModulNzdNzsPokretanje",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g03.p03.modularnaParadigma.ModulNzdNzsPokretanje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ModulNzdPokretanje",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g03.p03.modularnaParadigma.ModulNzdPokretanje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "LogickoNzd",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g03.p04.logickaParadigma.LogickoNzd",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "FunkcionalnoNzd",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g03.p05.funkcionalnaParadigma.FunkcionalnoNzd",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ObjektnoNzd",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g03.p06.objektnaParadigma.ObjektnoNzd",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "TestBlok",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p01.blokovi.TestBlok",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Sgn1",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p02.znakBroja.Sgn1",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Sgn2",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p02.znakBroja.Sgn2",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Min2",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p03.minimumDvaBroja.Min2",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Uredjenje",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p04.uredjenjeTriBroja.Uredjenje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "BrojDanaUMesecu",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p05.daniUMesecu.BrojDanaUMesecu",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IspisBrojeva",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p06.ispisBrojeva.IspisBrojeva",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Suma",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p07.sumaNiza.Suma",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "GenerisiDoUslova",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p08.brojeviDoUslova.GenerisiDoUslova",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "DuzinaBroja",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p09.duzinaBroja.DuzinaBroja",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "PrebrojavanjeReci",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p10.prebrojavanjeReci.PrebrojavanjeReci",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "BrojackiIspis",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p11.forBrojackiIspis.BrojackiIspis",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "FaktorijelBroja",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p12.faktorijelBroja.FaktorijelBroja",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "SumirajAritmetickiNizUnazad",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p13.sumaAritmetickaUnazad.SumirajAritmetickiNizUnazad",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "BeskonacniFor",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p14.beskonacniFor.BeskonacniFor",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "StepenovanjeBroja",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p15.forKaoWhile.StepenovanjeBroja",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "KorenNaIntervalu",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p16.funkcijaKorenaNaIntervalu.KorenNaIntervalu",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IspisIndeksaSporedneDijagonale",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p17.indeksiSporedneDijagonale.IspisIndeksaSporedneDijagonale",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UnosBrojevaBreak",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p18.unosBrojevaBreak.UnosBrojevaBreak",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UnosBrojevaContinue",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p19.unosBrojevaContinue.UnosBrojevaContinue",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "TraziPodnisku",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g05.p20.trazenjePodniske.TraziPodnisku",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RazlicitiIspisi",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p01.standardniIspis.RazlicitiIspisi",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IzmeriVreme",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p02.merenjeVremena.IzmeriVreme",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "PozoviGC",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p03.pozivanjeSakupljacaOtpadaka.PozoviGC",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IzadjiIzAplikacije",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p04.izlazIzAplikacije.IzadjiIzAplikacije",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ObrniReciURecenici",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p05.obrtanjeReci.ObrniReciURecenici",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "PonoviNisku",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p06.ponoviNisku.PonoviNisku",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "PonoviNiskuStringBuilder",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p07.ponoviNiskuStringBuilder.PonoviNiskuStringBuilder",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "MutabilniFloat",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p08.prosledjivanjeOmotacTipa.MutabilniFloat",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ParsirajAutoInformacije",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p09.parsiranjeNiske.ParsirajAutoInformacije",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ProsekUnetihBrojeva",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p10.parsiranjeStandardniUlaz.ProsekUnetihBrojeva",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "MonteKarloIntegracija",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p11.matematickeFunkcije.MonteKarloIntegracija",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "PrikaziMesec",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p12.grafickiPrikazMeseca.PrikaziMesec",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "FiltrirajVremena",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p13.filtrirajVremena.FiltrirajVremena",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "TestirajPseudoNormalneBrojeve",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p14.testirajNormalnu.TestirajPseudoNormalneBrojeve",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "GenerisiPredlogeSifara",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g06.p15.generisiPredlogeSifara.GenerisiPredlogeSifara",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "PokreniNzdNiza",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p01.nzdNizaBrojeva.PokreniNzdNiza",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "PokreniNzdNizaKolekcijskiFor",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p02.nzdNizaBrojevaKolekcijskiFor.PokreniNzdNizaKolekcijskiFor",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaNizom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p03.radSaNizomDinamickaDimenzija.RadSaNizom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "FrekvencijeBrojevaMonolitno",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p04.frekvencijeBrojeva.FrekvencijeBrojevaMonolitno",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "FrekvencijeBrojevaRazdvojeno",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p04.frekvencijeBrojeva.FrekvencijeBrojevaRazdvojeno",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "FrekvencijeBrojevaRazdvojenoGlobalniPodaci",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p04.frekvencijeBrojeva.FrekvencijeBrojevaRazdvojenoGlobalniPodaci",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaStekom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p05.stekPrekoNiza.RadSaStekom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "SumirajArgumente",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p06.sumaArgumenataKomandneLinije.SumirajArgumente",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "OdaberiOperaciju",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p07.odabirOperacijeArgumentiKomandneLinije.OdaberiOperaciju",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaMatricama",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p08.radSaMatricama.RadSaMatricama",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "PrebrojKaraktere",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p09.pojavljivanjaKaraktera.PrebrojKaraktere",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "SortirajPaTraziRec",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p10.sortiranjePretragaReci.SortirajPaTraziRec",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "BinarnaPretraga",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p11.binarnaPretraga.BinarnaPretraga",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IspisiArgumente",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g07.p12.promenljiviBrojArgumenata.IspisiArgumente",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "KreiranjeReferenci",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p01.kreiranjeReferenci.KreiranjeReferenci",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "KreiranjeObjekata",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p02.kreiranjeObjekata.KreiranjeObjekata",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "TestirajObject",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p03.kreiranjeObjekataObject.TestirajObject",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Kutija",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p04.kreiranjeObjekataIspis.Kutija",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Kutija(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p05.poredjenjeOperatoromJednako.Kutija",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UporediPromenljive",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p05.poredjenjeOperatoromJednako.UporediPromenljive",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IspisiPseudoslucajneCele",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p06.uvozKlase.IspisiPseudoslucajneCele",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Ucenik",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p07.pristupPoljima.Ucenik",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Ucenik(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p08.pristupStatickimPoljima.Ucenik",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "TestirajUcenik",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p09.pozivanjeMetoda.TestirajUcenik",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Pravougaonik",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p10.preopterecivanjeMetoda.Pravougaonik",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Srednjoskolac",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p11.nasledjivanje.Srednjoskolac",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IspitajPripadnostKlasi",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p12.pripadnostKlasi.IspitajPripadnostKlasi",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Duz",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p13.prevazilazenje.Duz",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "TestLjubimac",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p14.polimorfizam.TestLjubimac",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Duz(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p15.konstruktori.Duz",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Crtez",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p16.kopirajuciKonstruktor.Crtez",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "OznacenaTacka",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p17.konstruktorNadklase.OznacenaTacka",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p18.publicModifikator.podpaket1.A",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p18.publicModifikator.podpaket1.B",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "C",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p18.publicModifikator.podpaket2.C",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "A(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p19.packageModifikator.podpaket1.A",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "B(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p19.packageModifikator.podpaket1.B",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "C(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p19.packageModifikator.podpaket2.C",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "A(2)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p20.protectedModifikator.podpaket1.A",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "B(2)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p20.protectedModifikator.podpaket1.B",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "C(2)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p20.protectedModifikator.podpaket2.C",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "A(3)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p21.privateModifikator.podpaket1.A",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "B(3)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p21.privateModifikator.podpaket1.B",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "C(3)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p21.privateModifikator.podpaket2.C",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "TestirajKrugove",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p22.zastitaPolja.TestirajKrugove",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "CitajPrikaziParNepar",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p23.samorastuciNiz.CitajPrikaziParNepar",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "CitajPrikaziNeparPar",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g08.p24.jednostukoPovezanaLista.CitajPrikaziNeparPar",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "GeometrijskiObjekti",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p04.apstraktnaGeometrija.GeometrijskiObjekti",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Pitanja",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p06.interfejsImplementacija.Pitanja",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "PitanjaRazmisljanja",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p07.interfejsVise.PitanjaRazmisljanja",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Eksperimenti",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p08.interfejsProsirenje.Eksperimenti",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "MereObliciSadrzavanja",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p09.interfejsGeometrija.MereObliciSadrzavanja",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "MereObliciSadrzavanja(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p10.interfejsGeometrija.MereObliciSadrzavanja",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "CitajOkreni",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p11.stekKaoInterfejs.CitajOkreni",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UredjenjePredefinisani",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p12.uredjenjePredefinisani.UredjenjePredefinisani",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UredjenjeTacaka",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p13.uredjenjeTacaka.UredjenjeTacaka",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UredjenjeTacaka(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p14.viseKriterijumaTacke.UredjenjeTacaka",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "VisekriterijumskoSortiranje",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p15.viseKriterijumaPredefinisani.VisekriterijumskoSortiranje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Kloniranje",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p16.kloniranje.Kloniranje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Kloniranje(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p17.kloniranjeMutabilnaPoljaProblem.Kloniranje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Kloniranje(2)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p18.kloniranjeMutabilnaPoljaResenje.Kloniranje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "LosPrincipS",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p19.losPrincipS.LosPrincipS",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "DobarPrincipS",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p20.dobarPrincipS.DobarPrincipS",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "LosPrincipO",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p21.losPrincipO.LosPrincipO",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "DobarPrincipO",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p22.dobarPrincipO.DobarPrincipO",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "LosPrincipL",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p23.losPrincipL.LosPrincipL",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "LosPrincipI",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p24.losPrincipI.LosPrincipI",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "DobarPrincipI",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p25.dobarPrincipI.DobarPrincipI",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "LosPrincipD",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p26.losPrincipD.LosPrincipD",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "DobarPrincipDKonstruktor",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p27.dobarPrincipDKonstruktor.DobarPrincipDKonstruktor",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "DobarPrincipDMetodPostavi",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p28.dobarPrincipDMetodPostavi.DobarPrincipDMetodPostavi",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "LosOdnosJeste",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g09.p29.losOdnosJeste.LosOdnosJeste",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ObracunPlataTest",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g10.p01.nestatickaUgnezdenaObracunPlate.ObracunPlataTest",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "CitajPrikazi",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g10.p02.jednostrukoPovezanaLista.CitajPrikazi",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ProveraBrojaMobilnog",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g10.p03.lokalneUnutrasnjeProveraBrojaMobilnog.ProveraBrojaMobilnog",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "SortirajNiske",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g10.p04.anonimneKlasePoredjenjePriSortiranju.SortirajNiske",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IndeksVanGranica",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g11.p01.izuzeciIndeksVanGranica.IndeksVanGranica",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "FaktorijelBezUslovaIzlaska",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g11.p02.izuzeciPrekoracenjeStekMemorije.FaktorijelBezUslovaIzlaska",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "SprecavanjeIndeksaVanGranica",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g11.p03.izuzeciSprecavanjeIndeksaVanGranica.SprecavanjeIndeksaVanGranica",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "KonverzijaUPogresanObjektniTip",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g11.p04.izuzeciKonverzijaUPogresanObjektniTip.KonverzijaUPogresanObjektniTip",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ParsiranjeDatuma",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g11.p05.izuzeciParsiranjeDatuma.ParsiranjeDatuma",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ParsiranjeDatumaPropagiranjeIzuzetka",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g11.p06.izuzeciPropagiranje.ParsiranjeDatumaPropagiranjeIzuzetka",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Nizovid2D",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g11.p07.izuzeciKorisnickiDefinisan.Nizovid2D",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "NenegativanBrojTvrdnja",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g11.p08.tvrdnjeNenegativanBroj.NenegativanBrojTvrdnja",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "NenegativanBrojTvrdnjaSaPorukom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g11.p09.tvrdnjeSaPorukomNenegativanBroj.NenegativanBrojTvrdnjaSaPorukom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "SortiranjeSaPostuslovom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g11.p10.tvrdnjeSortiranjePostuslov.SortiranjeSaPostuslovom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "TestirajDane",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g12.p01.enumiDaniUNedelji.TestirajDane",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "TestirajMesece",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g12.p02.enumiBrojDanaUMesecu.TestirajMesece",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "TestirajPlanete",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g12.p03.enumiPlaneteSuncevogSistema.TestirajPlanete",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "AritmetickaOperacija",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g12.p04.enumiAritmetickeOperacije.AritmetickaOperacija",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "DanUNedeljiKlasa",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g12.p05.enumiDaniUNedeljiKlasa.DanUNedeljiKlasa",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "KutijaNegenericka",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g13.p01.genericiKutijaNegenericka.KutijaNegenericka",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "KutijaGenericka",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g13.p02.genericiKutijaGenericka.KutijaGenericka",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UredjeniPar",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g13.p03.genericiUredjeniPar.UredjeniPar",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "CitanjeSumiranje",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g13.p04.generickiInterfejsStek.CitanjeSumiranje",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "PretragaNiza",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g13.p05.genericiPretragaNiza.PretragaNiza",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "MinimalniElementNiza",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g13.p06.genericiMinimalniElementNiza.MinimalniElementNiza",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "MinimalniElementNizaNegenericki",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g13.p07.genericiUredjeniParUporedivNegenericki.MinimalniElementNizaNegenericki",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "KutijaGenericka(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g13.p08.genericiKutijaGenerickaObojena.KutijaGenericka",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "KutijaGenerickaObojena",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g13.p08.genericiKutijaGenerickaObojena.KutijaGenerickaObojena",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RedPrekoKruznogNiza",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p01.kolekcijeRed.RedPrekoKruznogNiza",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RedPrekoPovezaneListe",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p01.kolekcijeRed.RedPrekoPovezaneListe",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IteratorPovezanaLista",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p02.iteratorLista.IteratorPovezanaLista",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaPovezanomListom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p03.povezanaLista.RadSaPovezanomListom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaNizovnomListom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p04.nizovnaLista.RadSaNizovnomListom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "PoredjenjeSlucajnogPristupa",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p05.implementacijaNizovneListe.PoredjenjeSlucajnogPristupa",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UredjeniPar(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p06.hesKod.UredjeniPar",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UredjeniParUporediv",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p06.hesKod.UredjeniParUporediv",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaHesSkupom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p07.hesSkup.RadSaHesSkupom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UredjeniPar(2)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p07.hesSkup.UredjeniPar",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UredjeniParUporediv(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p07.hesSkup.UredjeniParUporediv",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaDrvoSkupom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p08.drvoSkup.RadSaDrvoSkupom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UredjeniPar(3)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p08.drvoSkup.UredjeniPar",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaPovezanimHesSkupom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p09.povezaniHesSkup.RadSaPovezanimHesSkupom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaBitovskimSkupom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p10.bitovskiSkup.RadSaBitovskimSkupom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaEnumerisanimSkupom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p11.enumerisaniSkup.RadSaEnumerisanimSkupom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaNizovnimDvostrukimRedom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p12.nizovniDvostrukiRed.RadSaNizovnimDvostrukimRedom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaPrioritetnimRedom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p13.prioritetniRed.RadSaPrioritetnimRedom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaHesRecnikom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p14.hesRecnik.RadSaHesRecnikom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RadSaDrvoRecnikom",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p15.drvoRecnik.RadSaDrvoRecnikom",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "SumaBrojeva",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p16.dzokerTipGornjeGranice.SumaBrojeva",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p17.dzokerTipDonjeGranice.Student",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "StekoviKolekcije",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g14.p18.stekKolekcijaListaNiz.StekoviKolekcije",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ProcitajDatoteku",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g15.p01.ulazniTokDatoteka.ProcitajDatoteku",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IspisiPodatkeDatoteka",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g15.p02.ispisPodataka.IspisiPodatkeDatoteka",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IspisiPodatkeKonzola",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g15.p02.ispisPodataka.IspisiPodatkeKonzola",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "CitajReci",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g15.p03.citacNiske.CitajReci",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "IspisNiskiUDatoteku",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g15.p04.ispisPodatakaKarakteri.IspisNiskiUDatoteku",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "ProcitajDatotekuKaraktera",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g15.p05.ulancavanjeTokova.ProcitajDatotekuKaraktera",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "RekurzivniObilazak",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g15.p06.obilazakSistemaDatoteka.RekurzivniObilazak",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "Student(1)",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g15.p07.ucitavanjeIzDatotekeSkener.Student",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        },
+        {
+            "type": "java",
+            "name": "UcitajStudente",
+            "request": "launch",
+            "mainClass": "rs.math.oop.g15.p07.ucitavanjeIzDatotekeSkener.UcitajStudente",
+            "projectName": "matf-oop-java--tom-1_fef17c31"
+        }
+    ]
+}
